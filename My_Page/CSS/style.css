@@ -1,0 +1,136 @@
+/**********************************TAG selector**************************************/
+body{
+    margin: auto;
+      text-align: center;
+      color: #40514E;
+      font-family: 'Martel', serif;
+}
+table{
+  width: 100%;
+}
+p{
+  line-height: 2;
+  text-align:center;
+}
+
+h2{
+  color: #f8a488;
+}
+h3{
+  color: #f8a488;
+}
+hr{
+  width:4%;
+  color: #40514E;
+  border-style: none;
+  border-bottom-width: 6px;
+  border-bottom-style: dotted;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+a{
+  font-family: 'Press Start 2P', cursive;
+  color: ivory;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: rgb(0, 0, 0);
+}
+/***********************************CLASS selector***********************************/
+.skillpic1{
+  width: 15%;
+  float: left;
+  margin-right:30px;
+}
+.skillpic2{
+  width: 15%;
+  float: right;
+  margin-right: 30px;
+}
+.skillpic3{
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row{
+  text-align: left;
+  width: 50;
+  margin-left: 300px;
+  padding-top: 100px;
+  margin-right: 300px;
+
+}
+.hobbyrow{
+  text-align:unset;
+  width: 50;
+  margin-left: 300px;
+  padding-top: 100px;
+  margin-right: 300px;
+  line-height: 3;
+}
+.contact_me{
+padding: 100px 0px 100px 0px;
+}
+.div_1{
+    background-color:#f8a488 ;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    text-align: center;
+    padding-top: 100px;
+
+
+
+}
+.div_2{
+  background-color: ivory;
+  line-height: 2;
+
+}
+.propic{
+  width: 200px;
+
+}
+.div_3{
+  background-color: lightcoral;
+  padding: 50px 0 20px;
+}
+.btn{
+  background: #f8a488;
+  color: ivory;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+/*********************************ID selector******************************/
+#underline{
+    text-decoration: underline;
+}
+#nameheading{
+    margin-top: 0;
+    padding-top: 10%;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 500%;
+    color: ivory;
+
+}
+
+#desp{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 100%;
+    color: ivory;
+
+
+}
+#brian{
+    width: 400px;
+    text-align:center;
+}
