@@ -1,14 +1,72 @@
 /**********************************TAG selector**************************************/
 body{
     text-align: center;
+    background-color: #343A40;
+    margin: 0;
+}
+h1{
+    font-size: 6rem;
+    color: #343A40;;
+    font-family: 'Kirang Haerang', cursive;
+    margin: 0;
 }
 /***********************************CLASS selector***********************************/
-.list{
-    background-color: lightblue;
+.icon{
+    color:#E1E8EB;
+}
+.heading{
+    background-color: #E1E8EB; 
+    padding: 10% 0 20% 0;
+    margin: 0 0 10% 0;
+}
+.btn-project {
+    display: inline-block;
+    padding: 0px 0px;
+    font-size: 16px;
+    width: 15rem;
+    height: 20rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #7952B3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 1rem;
+  }
+  
+.btn-project:hover {background-color: #4f2f80}
+  
+.btn-project:active {
+    background-color: #4f2f80;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.footer,.card-header{
+    color: #E1E8EB;
+}
+.card-body{
+    color: #E1E8EB;
+}
+.project-link,.project-link:link,.project-link:visited{
+    text-decoration: none;
+}
+
+.footer,.list{
     color: ivory;
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
 }
-
+.footer{
+    background-color: #E1E8EB;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: 10% 0 0 0;
+    font-size: 2rem;
+    color: #343A40;;
+    font-family: 'Kirang Haerang', cursive;
+}
 /**********************************ID selector******************************/
