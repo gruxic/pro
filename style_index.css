@@ -1,16 +1,38 @@
 /**********************************TAG selector**************************************/
 body{
     text-align: center;
-    background-color: #343A40;
+    background-color: #222831;
     margin: 0;
 }
 h1{
-    font-size: 6rem;
-    color: #343A40;;
-    font-family: 'Kirang Haerang', cursive;
+    font-size: 3rem;
+    color: #222831;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
 }
+html, body {
+    overflow-x: hidden;
+}
 /***********************************CLASS selector***********************************/
+/*******************NAVBAR*******************/
+.navbar{
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    background-color: #EEEEEE;
+    padding: 5% 0 5% 0;
+
+}
+.navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+}
+/***********************************************/
+.card-deck{
+    margin:15% 0 15% 0;
+}
 .icon{
     color:#E1E8EB;
 }
@@ -30,17 +52,17 @@ h1{
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #7952B3;
+    background-color: #00ADB5;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
     margin: 1rem;
   }
   
-.btn-project:hover {background-color: #4f2f80}
+.btn-project:hover {background-color: #017e85}
   
 .btn-project:active {
-    background-color: #4f2f80;
+    background-color: #00ADB5;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
@@ -67,6 +89,30 @@ h1{
     margin: 10% 0 0 0;
     font-size: 2rem;
     color: #343A40;;
-    font-family: 'Kirang Haerang', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 /**********************************ID selector******************************/
+
+/***********************************Mobile Responsive***********************************/
+@media (max-width :800px){
+    .btn-project {
+        display: inline-block;
+        padding: 0px 0px;
+        font-size: 0.8rem;
+        width: 10rem;
+        height: 12rem;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #00ADB5;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+        margin: 1rem;
+      }
+    .card-deck{
+        margin:35% 0 15% 0;
+    }
+}
