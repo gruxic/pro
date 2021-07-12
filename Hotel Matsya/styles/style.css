@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url('../photos/hotel-index.jpg');
+    background-size: 100%;
+}
+.title{
+    opacity: 100%;
+    color: azure;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: azure;
+}
+nav .navbar-nav li a{
+    color: white !important;
+}
+a.navbar-brand {
+    display: contents;
+  }
