@@ -1,7 +1,7 @@
 /**********************************TAG selector**************************************/
 body{
     text-align: center;
-    background-color: #222831;
+    background-color: #8D2828;
     margin: 0;
 }
 h1{
@@ -19,8 +19,8 @@ html, body {
     position: fixed;
     width: 100%;
     margin: 0;
-    background-color: #EEEEEE;
-    padding: 5% 0 5% 0;
+    background-color: #690303;
+    padding: 2rem 0 2rem 0;
 
 }
 .navbar-brand{
@@ -28,10 +28,11 @@ html, body {
     font-size: 200%;
     text-align: center;
     text-decoration: none;
+    color:#E1E8EB;
 }
 /***********************************************/
 .card-deck{
-    margin:15% 0 15% 0;
+    margin:10% 0 10% 0;
 }
 .icon{
     color:#E1E8EB;
@@ -45,25 +46,25 @@ html, body {
     display: inline-block;
     padding: 0px 0px;
     font-size: 16px;
-    width: 15rem;
+    width: 20rem;
     height: 20rem;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #00ADB5;
+    background-color: #690303;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
-    margin: 1rem;
+    box-shadow: 0 9px #360606;
+    margin: 2rem;
   }
   
-.btn-project:hover {background-color: #017e85}
+.btn-project:hover {background-color: #360606}
   
 .btn-project:active {
-    background-color: #00ADB5;
-    box-shadow: 0 5px #666;
+    background-color: #140101;
+    box-shadow: 0 5px #1d0202;
     transform: translateY(4px);
   }
 .footer,.card-header{
@@ -83,13 +84,30 @@ html, body {
     margin-right: 20%;
 }
 .footer{
-    background-color: #E1E8EB;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: 10% 0 0 0;
-    font-size: 2rem;
-    color: #343A40;;
-    font-family: 'Raleway', sans-serif;
+    color: white;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;   
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.footer-icons{
+    text-align: center;
+    padding: 5% 0 0 0;
+}
+.social-icon{
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    
+    display: inline;
+    text-decoration: none;
+    color: white;
+    color: rgba(0, 0, 0, 0.5);
 }
 /**********************************ID selector******************************/
 
@@ -106,10 +124,10 @@ html, body {
         text-decoration: none;
         outline: none;
         color: #fff;
-        background-color: #00ADB5;
+        background-color: #690303;
         border: none;
         border-radius: 15px;
-        box-shadow: 0 9px #999;
+        box-shadow: 0 9px #360606;
         margin: 1rem;
       }
     .card-deck{
